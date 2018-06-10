@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/weatherMenu"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="Weather" />
+        <item
+            android:id="@+id/weatherReportMenu"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Weather Report" />
+        <!--<item
+            android:id="@+id/nav_slideshow"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Slideshow" />
+        <item
+            android:id="@+id/nav_manage"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Tools" />-->
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/locationMenu"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Location" />
+            <item
+                android:id="@+id/mapMenu"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Map" />
+            <item
+                android:id="@+id/nearByMenu"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Near By" />
+
+            <item
+                android:id="@+id/logout"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Sign Out" />
+        </menu>
+    </item>
+
+</menu>

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backgound"
+    tools:context=".SignUpActivity">
+
+    <ProgressBar
+        android:id="@+id/signUpProgressBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_gravity="center"
+        android:visibility="gone"
+
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="15dp"
+        android:padding="10dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="#58ffffff">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Sign Up"
+                android:gravity="center"
+                android:textSize="25sp"/>
+
+        </LinearLayout>
+
+        <EditText
+            android:id="@+id/nameEt"
+            android:layout_width="match_parent"
+            android:drawableLeft="@drawable/signupuser"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:hint=" Name"
+            />
+        <EditText
+            android:id="@+id/phoneEt"
+            android:layout_width="match_parent"
+            android:drawableLeft="@drawable/ic_phone_iphone_black_24dp"
+            android:layout_height="wrap_content"
+            android:hint=" Phone Number"
+            android:inputType="number"
+            android:layout_marginBottom="10dp"
+            />
+
+        <EditText
+            android:id="@+id/emailEt"
+            android:layout_width="match_parent"
+            android:layout_marginBottom="10dp"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/ic_mail_outline_black_24dp"
+            android:hint=" Email "
+            android:inputType="textEmailAddress"
+            />
+
+        <EditText
+            android:id="@+id/passwordEt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/signuplock"
+            android:ems="10"
+            android:hint=" Password"
+            android:layout_marginBottom="10dp"
+            android:inputType="textPassword" />
+
+
+        <Button
+            android:id="@+id/signUpBt"
+            android:layout_marginTop="15dp"
+            android:background="#3768ed"
+            android:textColor="#fff"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="Sign Up"
+            android:onClick="signUpAction"/>
+    </LinearLayout>
+
+
+</RelativeLayout>

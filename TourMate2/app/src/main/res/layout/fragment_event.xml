@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/gradient_background"
+    tools:context=".fragment.Event.EventFragment">
+
+    <EditText
+        android:id="@+id/eventNameEt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Event Name"
+        android:layout_margin="5dp"/>
+
+    <EditText
+        android:id="@+id/startingLocationEt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Starting Location"
+        android:layout_margin="5dp"/>
+
+    <EditText
+        android:id="@+id/destinationEt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Your Destination"
+        android:layout_margin="5dp"/>
+
+
+    <EditText
+        android:id="@+id/departureDateEt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Departure Date"
+        android:layout_margin="5dp"/>
+
+    <EditText
+        android:id="@+id/budgetEt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:hint="Your estimated budget"
+        android:layout_margin="5dp"/>
+
+    <Button
+        android:id="@+id/eventSaveButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Save"
+        android:textAllCaps="false"
+        android:layout_margin="5dp"/>
+
+</LinearLayout>

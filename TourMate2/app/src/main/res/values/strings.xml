@@ -1,0 +1,46 @@
+<resources>
+    <string name="app_name">Tour Mate</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Tour Mate</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <!--<string name="place_api_key">AIzaSyBTFlYD7hfteTwdtAlqMwA2_0uRaF6kmOk</string>-->
+    <string name="place_api_key">AIzaSyDMKsZxFkVR-8F1Wh-a0gcL2_meESoRhTE</string>
+    <string name="direction_api_key">AIzaSyBD5jtEt7iO5Jdhix91pqVibYSFBVuKUXQ</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+    <!-- validation message -->
+
+    <string name="phone_err">Please enter you phone number</string>
+    <string name="email_err">Please enter valid email</string>
+    <string name="password_err">Password must be in 6 digit</string>
+    <string name="name_err">Please enter your name</string>
+
+    <string name="departureDate_err">Please enter departure date</string>
+    <string name="eventName_err">Please enter Event Name</string>
+    <string name="startingLocation_err">Please enter starting location</string>
+    <string name="budget_err">Please enter budget</string>
+    <string name="destination_err">Please enter your destination</string>
+
+    <string name="amount_err">Amount should not be empty</string>
+    <string name="comment_err">Please enter comment</string>
+
+    <string name="weather_api_key">d4af6b1a2ed400b21e6f2f633406b3ad</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="tab_text_1">Tab 1</string>
+    <string name="tab_text_2">Tab 2</string>
+    <string name="tab_text_3">Tab 3</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="title_activity_weather">WeatherActivity</string>
+
+    <string name="nearby_places">Nearby Places</string>
+    <string name="find">find</string>
+
+</resources>

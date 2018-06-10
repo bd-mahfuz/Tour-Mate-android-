@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backgound"
+    tools:context=".fragment.Event.CreateEventFragment">
+
+    <ProgressBar
+        android:id="@+id/progrssbar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_gravity="center"
+        android:visibility="gone"/>
+
+    />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="15dp"
+        android:padding="10dp">
+
+        <EditText
+            android:id="@+id/eventNameEt"
+            android:layout_width="match_parent"
+            android:drawableLeft="@drawable/signupuser"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:hint=" Event Name"
+            />
+
+        <EditText
+            android:id="@+id/startingEt"
+            android:layout_width="match_parent"
+            android:layout_marginBottom="10dp"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/ic_my_location_black_24dp"
+            android:hint=" Starting Location "
+            />
+
+        <EditText
+            android:id="@+id/destinationEt"
+            android:layout_width="match_parent"
+            android:layout_marginBottom="10dp"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/ic_location_on_black_24dp"
+            android:hint=" Destination "
+            />
+        <EditText
+            android:id="@+id/departureEt"
+            android:layout_width="match_parent"
+            android:layout_marginBottom="10dp"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/ic_date_range_black_24dp"
+            android:hint=" Departure Date"
+            />
+
+
+        <EditText
+            android:id="@+id/budgetEt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint=" Estimated Budget"
+            android:inputType="number"
+            android:layout_marginBottom="10dp"
+            />
+        <Button
+            android:id="@+id/updateEventButton"
+            android:layout_marginTop="15dp"
+            android:background="#1a85ba"
+            android:textColor="#fff"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:textAllCaps="false"
+            android:text="Update Event"/>
+
+
+    </LinearLayout>
+
+</RelativeLayout>

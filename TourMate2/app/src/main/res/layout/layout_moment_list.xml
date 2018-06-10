@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="4dp"
+    android:layout_marginRight="4dp"
+    android:background="@drawable/backgound"
+    app:cardCornerRadius="2dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="88dp"
+        android:background="@drawable/backgound">
+
+        <ImageView
+            android:id="@+id/momentIv"
+            android:layout_width="84dp"
+            android:layout_height="74dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="10dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="8dp"
+            app:srcCompat="@drawable/admin"
+            android:elevation="6dp"
+            />
+
+        <TextView
+            android:id="@+id/momentTitleTv"
+            android:layout_width="wrap_content"
+            android:textColor="#fff"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignTop="@+id/momentIv"
+            android:layout_marginStart="105dp"
+            android:text="Capture 1"
+            android:textSize="18sp"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="105dp" />
+
+        <TextView
+            android:id="@+id/fileNameTv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#fff"
+            android:layout_alignLeft="@+id/momentTitleTv"
+            android:layout_alignStart="@+id/momentTitleTv"
+            android:layout_centerVertical="true"
+            android:text="JPEG_238273892.jpg"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/dateTv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#fff"
+            android:layout_alignBottom="@+id/momentIv"
+            android:layout_alignStart="@+id/momentTitleTv"
+            android:text="01/06/2018 04:30 AM"
+            android:textSize="15sp"
+            android:layout_alignLeft="@+id/momentTitleTv" />
+
+    </RelativeLayout>
+</android.support.v7.widget.CardView>
